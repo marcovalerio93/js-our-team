@@ -19,3 +19,12 @@ body{
 .container h1,p{
     margin-bottom: 20px;
 }
+
+.team{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc( 100% /3);
+}
