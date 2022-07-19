@@ -1,4 +1,4 @@
-
+//creo array d'oggetti 
 const team = [
     {
         'name':'Wayne Barnett',
@@ -32,6 +32,18 @@ const team = [
     }
 ];
 
+const teamDom
+
+
+//stampo in console oggetti 
 for (let i = 0; i < team.length; i ++) {
     console.log(team[i]['name'], team[i]['role'], team[i]['img']);
+    drawTeamMembers(team[i]);
+
 }
+//stampo info in html
+function drawTeamMembers(teamMeber) [
+    const card = docoument.createElement('div');
+    card.classlst.add('card');
+    
+]
