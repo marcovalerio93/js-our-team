@@ -32,7 +32,8 @@ const team = [
     }
 ];
 
-const teamDom= document.querySelector('.team')
+//collego l'array alla classe team
+const teamDom= document.querySelector('.team');
 
 
 //stampo in console oggetti 
